@@ -1,3 +1,8 @@
-# NOMT_OPlus
-NOMT_OPlus transferred from OPLab Test Library. Images and other files can be found in NOMT_OPlus_Extras.
-
+# NOMT_Ziggerins
+Updated NOMT with Ziggerins
+Dependency:
+* Ziggerins_study1.jpg
+* Ziggerins_study2.jpg
+* diffview_instruct.jpg
+* stimuli folder
+* data folder
