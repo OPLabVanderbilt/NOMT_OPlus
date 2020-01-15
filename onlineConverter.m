@@ -52,27 +52,27 @@ for i = 1:height(trials)
     if i == 1 || i == 7 % Study screen
         trialNum = trialNum + 1;
         img = imread(study1);
-        imgName = ['trial_' num2str(trialNum) '_block-' block ...
+        imgName = ['trial_' num2str(trialNum) '_block-' num2str(block) ...
             '_sections-1_clickable-true_isi-250.jpg'];
         imwrite(img, ['onlineExperiment/' imgName]);
     elseif i == 25 % Different view instruction screen
         trialNum = trialNum + 1;
         block = block + 1;
         img = imread(diffInstruct);
-        imgName = ['trial_' num2str(trialNum) '_block-' block ...
+        imgName = ['trial_' num2str(trialNum) '_block-' num2str(block) ...
             '_sections-1_clickable-true_isi-250.jpg'];
         imwrite(img, ['onlineExperiment/' imgName]);
         
         trialNum = trialNum + 1;
         img = imread(study2);
-        imgName = ['trial_' num2str(trialNum) '_block-' block ...
+        imgName = ['trial_' num2str(trialNum) '_block-' num2str(block) ...
             '_sections-1_clickable-true_isi-250.jpg'];
         imwrite(img, ['onlineExperiment/' imgName]);
     end
     
     trialNum = trialNum + 1;
     img = imread(['stimuli/' trials.TestImgName{i}]);
-    imgName = ['trial_' num2str(trialNum) '_block-' block ...
+    imgName = ['trial_' num2str(trialNum) '_block-' num2str(block) ...
         '_sections-3_clickable-true_isi-' num2str(ITI) '.jpg'];
     imwrite(img, ['onlineExperiment/' imgName]);
 end
