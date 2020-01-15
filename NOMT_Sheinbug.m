@@ -160,7 +160,7 @@ try
         t = Screen('Flip', w);
         
         % Test Screen until response
-        testim = imread(['stimuli/' trials.TestImgName{1}]);
+        testim = imread(['stimuli/' trials.TestImgName{i}]);
         testtexture = Screen('MakeTexture', w, testim);
         Screen('DrawTexture', w, testtexture);
         
