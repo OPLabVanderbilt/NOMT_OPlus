@@ -1,3 +1,10 @@
-# NOMT_OPlus
-NOMT_OPlus transferred from OPLab Test Library. Images and other files can be found in NOMT_OPlus_Extras.
+# NOMT_Sheinbug
+Updated NOMT with Sheinbugs
+Dependency:
+* Sheinbug_study1.jpg
+* Sheinbug_study2.jpg
+* diffview_instruct.jpg
+* stimuli folder
+* data folder
 
+IN-LAB VERSION RELATIVELY UNTESTED.
